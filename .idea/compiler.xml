@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servicio-de-direccion" />
+        <module name="empleado-servicio" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="empleado-servicio" target="17" />
       <module name="servicio-de-direccion" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="empleado-servicio" options="-parameters" />
       <module name="servicio-de-direccion" options="-parameters" />
     </option>
   </component>

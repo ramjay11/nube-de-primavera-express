@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/empleado-servicio/empleado-servicio.iml" filepath="$PROJECT_DIR$/empleado-servicio/empleado-servicio.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nube-de-primavera-express.iml" filepath="$PROJECT_DIR$/.idea/nube-de-primavera-express.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicio-de-direccion/servicio-de-direccion.iml" filepath="$PROJECT_DIR$/servicio-de-direccion/servicio-de-direccion.iml" />
     </modules>
